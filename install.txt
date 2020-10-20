@@ -1,0 +1,17 @@
+touch index.js .gitignore
+git init
+sudo  npm install apollo-server graphql mongoose
+npm i -D nodemon
+npm i jsonwebtoken
+npm install node-gyp -g
+npm install bcryptjs -g
+npm install bcryptjs
+[npx create-react-app client]
+cd client 
+npm install @apollo/react-hooks apollo-cache-inmemory apollo-link-http apollo-client
+sudo npm install react-router-dom semantic-ui-css semantic-ui-react
+npm install moment
+npm install apollo-link-context
+npm install jwt-decode
+at the END 
+sudo npm un react-router-dom semantic-ui-css semantic-ui-react

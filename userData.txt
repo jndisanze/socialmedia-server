@@ -1,0 +1,38 @@
+mutation{
+  register(registerInput:{
+    username: "user1"
+    password:"123456789"
+    confirmPassword:"123456789"
+    email:"jndisanze@gmail.com"
+  }){
+    id
+    email
+    token
+    username
+    createdAt
+
+  }
+}
+{
+  "data": {
+    "register": {
+      "id": "5f8d148f90c188ac4ea10fa4",
+      "email": "jndisanze@gmail.com",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmOGQxNDhmOTBjMTg4YWM0ZWExMGZhNCIsImVtYWlsIjoiam5kaXNhbnplQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidXNlcjEiLCJpYXQiOjE2MDMwODEzNTksImV4cCI6MTYwMzA4NDk1OX0.G9s6jf03YhsEBO1JTryXqaDffMj1JuuFyasc4Vt_ZYk",
+      "username": "user1",
+      "createdAt": "2020-10-19T04:22:39.765Z"
+    }
+  }
+}
+
+{
+  "data": {
+    "register": {
+      "id": "5f8e3081629b044880715cae",
+      "email": "jndisanze@gmail.com",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmOGUzMDgxNjI5YjA0NDg4MDcxNWNhZSIsImVtYWlsIjoiam5kaXNhbnplQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidXNlcjQiLCJpYXQiOjE2MDMxNTQwNDksImV4cCI6MTYwMzE1NzY0OX0.oYk1heFnlBJYc71ttaL9oBclQxcwExpjMqbdWwuJpEQ",
+      "username": "user4",
+      "createdAt": "2020-10-20T00:34:09.175Z"
+    }
+  }
+}
